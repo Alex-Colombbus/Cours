@@ -1,0 +1,70 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+    background: url(./img/Background.jpg) center/cover;
+    /* VH = 100% de la taille de l'écran (viewport height) */
+    min-height: 100vh;
+    /* letter-spacing: 20px; */
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border: 1px dashed red;
+    /* Les tailles de police doivent être en REM */
+    font-size: 2.5rem;
+    text-align: center;
+    color: #ab0ef4;
+
+}
+
+main {
+    min-height: 500px;
+    width: 90%;
+    background: rgba(245, 245, 245, 0.9);
+    /* centrer une boîte ou un bloc  */
+    margin: 0 auto;
+    padding: 15px;
+    border: 2px solid rgb(0, 140, 255);
+    /* L'arrondie des angles  */
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0 0 20px #81cfc6;
+}
+
+h2 {
+    margin: 0;
+}
+
+/* .flexbox est un selecteur de class */
+.flexbox {
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.flexbox ul {
+    padding: 0;
+    display: flex;
+    /* flex-direction: row; */
+}
+
+.flexbox li {
+    list-style: none;
+    height: 160px;
+    width: 160px;
+    background-color: blue;
+    margin: 10px;
+    /* Centrer un unique élément horizontalement et verticalement */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: ;
+}
+
+
+
+/* Le flexbox sert à repartir équitablement des éléments sur la page. */

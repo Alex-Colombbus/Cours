@@ -1,0 +1,255 @@
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+h2 {
+
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+    font-optical-sizing: auto;
+
+    font-style: normal;
+
+}
+
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+
+    min-width: 1143px;
+
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+
+    a:link,
+    a:visited {
+        font-family: Jiho Light;
+        text-decoration: none;
+        color: black;
+
+    }
+
+}
+
+.logo {}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    width: 300px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-width: 1143px;
+}
+
+.page1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    color: beige;
+    width: 100%;
+    background-image: url(./img/image-principale.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+
+.page2 {
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.unique {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+
+}
+
+.cote {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 90px;
+
+}
+
+.coteenfant {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.imagecote {
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
+
+}
+
+.page3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(250, 243, 243);
+    width: 100%;
+
+
+}
+
+.page3images {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page3gauche {
+    display: flex;
+    margin: 40px;
+
+
+
+}
+
+.page3droite {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    margin: 40px 40px 0;
+}
+
+.titregauche {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(37, 235, 37);
+    height: 40px;
+    width: 200px;
+    position: relative;
+    left: -50px;
+    box-shadow: 3px 3px 0px rgba(7, 131, 7, 0.9);
+
+}
+
+.titredroite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    height: 40px;
+    width: 200px;
+    position: relative;
+    left: 50px;
+    box-shadow: -3px 3px 0px rgba(7, 131, 131, 0.9);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    color: beige;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(82, 75, 59);
+
+    width: 100%;
+
+}
+
+.formname input {
+    display: flex;
+    width: 350px;
+    height: 30px;
+    border: none;
+    margin-bottom: 2px;
+    border-radius: 7px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.formemail input {
+    display: flex;
+    width: 350px;
+    height: 30px;
+    border: none;
+    margin-bottom: 2px;
+    border-radius: 7px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.formtext textarea {
+    display: flex;
+    width: 350px;
+    height: 200px;
+    border: none;
+    margin-bottom: 5px;
+    border-radius: 7px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button {
+    display: flex;
+    width: 330px;
+    height: 30px;
+    border-radius: 7px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: beige;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(82, 75, 59);
+    width: 100%;
+}
+
+.copy {
+    margin-left: 40px;
+    color: beige;
+}
+
+.icones {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    margin-right: 40px;
+
+}
+
+.fa-twitter {
+    color: beige;
+}
+
+.fa-facebook {
+    color: beige;
+}
+
+.fa-instagram {
+    color: beige;
+}
